@@ -9,3 +9,11 @@ This is a python script which majorly uses the python sklearn module to create a
 5. The script then generates a confusion matrix for further error analysis.
 6. The resulting accuracy on the Test set is apporximately 80%.
 
+## Time_series_predicition 
+
+It's a notebook that uses the hmmlearn module to create an HMM model to predict potential suicidal trends in people suffering from depression given their history of posts. Beyond-Blue dataset is used for training. 
+
+1. Filters out users who have posted in depression as well as in self-harm forums. 
+2. Converts posts to LIWC scores. 
+3. Filters out irrelevant LIWC words to reduce dimensions 
+3. Uses LIWC scores as a feature vector to train Gaussian HMM with 2 states and Viterbi algorithm to decode 
