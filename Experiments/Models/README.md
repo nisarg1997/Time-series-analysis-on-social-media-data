@@ -9,7 +9,7 @@ This is a python script which majorly uses the python sklearn module to create a
 5. The script then generates a confusion matrix for further error analysis.
 6. The resulting accuracy on the Test set is apporximately 80%.
 
-## Time series prediction 
+## Time_series_with_HMM.ipynb
 
 It's a notebook that uses the hmmlearn module to create an HMM model to predict potential suicidal trends in people suffering from depression given their history of posts. Beyond-Blue dataset is used for training. 
 
